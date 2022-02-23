@@ -1,0 +1,8 @@
+# CLOCK ---> OUTPUT
+
+.chipsets:
+clock cl
+output out
+
+.links:
+cl:1 out:1

@@ -4,6 +4,8 @@
         "nanotekspice": "nanotekspice"
     },
     "suites": {
-        "default": []
+        "default": [
+            "basic.suite.js"
+        ]
     }
 }

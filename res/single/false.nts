@@ -1,0 +1,8 @@
+# FALSE ---> OUTPUT
+
+.chipsets:
+false in
+output out
+
+.links:
+in:1 out:1

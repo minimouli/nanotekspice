@@ -6,7 +6,8 @@
     "suites": {
         "default": [
             "basic.suite.js",
-            "gate.suite.js"
+            "gate.suite.js",
+            "advanced.suite.js"
         ]
     }
 }

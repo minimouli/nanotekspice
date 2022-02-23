@@ -1,0 +1,36 @@
+# Combinatory of XOR and NOT
+#
+# in_a  -1-+---\
+#          |xor |-3---1-|>o-2-+
+# in_b  -2-+---/              |
+#                             +-13-+---\
+# in_c  -----------5-+---\         |xor |-11---5-|>o-6-+
+#                    |xor |-4---12-+---/               |
+# in_d  -3-|>o-4---6-+---/                             +-9-+---\
+#                                                          |xor |-10---9-|>o-8- out
+# in_e  -------------------------------------------------8-+---/
+
+.chipsets:
+input in_a
+input in_b
+input in_c
+input in_d
+input in_e
+output out
+4030 xor
+4069 not
+
+.links:
+in_a:1 xor:1
+in_b:1 xor:2
+xor:3 not:1
+not:2 xor:13
+in_c:1 xor:5
+in_d:1 not:3
+not:4 xor:6
+xor:4 xor:12
+xor:11 not:5
+not:6 xor:9
+in_e:1 xor:8
+xor:10 not:9
+not:8 out:1

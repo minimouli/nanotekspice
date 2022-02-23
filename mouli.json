@@ -8,7 +8,8 @@
             "basic.suite.js",
             "gate.suite.js",
             "advanced.suite.js",
-            "circuit.suite.js"
+            "circuit.suite.js",
+            "parsing.suite.js"
         ]
     }
 }

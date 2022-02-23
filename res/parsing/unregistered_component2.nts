@@ -1,0 +1,8 @@
+# Unregistered component
+
+.chipsets:
+input in
+output out
+
+.links:
+in:1 other:1

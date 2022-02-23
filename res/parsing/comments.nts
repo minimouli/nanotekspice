@@ -1,0 +1,12 @@
+# INPUT ---> OUTPUT
+
+## Double comment # again
+.chipsets:# Chipsets here
+input in   # After spaces
+output out	# After a tab
+#input fakeinput
+	  # After whitespaces on an empty line
+.links: # After a space on a delimiter
+in:1 out:1#Right after a link
+
+#EOF

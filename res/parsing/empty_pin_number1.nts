@@ -1,0 +1,8 @@
+# Empty pin number
+
+.chipsets:
+input in
+output out
+
+.links:
+in: out:1

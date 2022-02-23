@@ -1,0 +1,8 @@
+# Duplicate name
+
+.chipsets:
+input name
+output name
+
+.links:
+name:1 name:1

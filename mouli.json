@@ -1,0 +1,9 @@
+{
+    "rootDir": "./dist",
+    "binaries": {
+        "nanotekspice": "nanotekspice"
+    },
+    "suites": {
+        "default": []
+    }
+}
